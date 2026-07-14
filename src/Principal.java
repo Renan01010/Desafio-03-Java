@@ -1,7 +1,4 @@
-import br.com.desafio.modelos.Cachorro;
-import br.com.desafio.modelos.Carro;
-import br.com.desafio.modelos.ConversorMoeda;
-import br.com.desafio.modelos.Gato;
+import br.com.desafio.modelos.*;
 
 public class Principal {
     public static void main(String[] args) {
@@ -33,6 +30,12 @@ public class Principal {
         dolar.setMoeda("Dolar");
         dolar.setValor(50.00);
         dolar.converterDolarParaReal();
+
+        CalcularSalaRetangular sala = new CalcularSalaRetangular();
+        sala.setAltura(2.60);
+        sala.setLargura(3.40);
+        sala.calcularArea();
+        sala.calcularPerimetro();
 
 
     }
