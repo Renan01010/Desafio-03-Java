@@ -37,6 +37,8 @@ public class Principal {
         sala.calcularArea();
         sala.calcularPerimetro();
 
+        TabuadaMultiplicacao tabuada = new TabuadaMultiplicacao();
+        tabuada.mostrarTabuada(10);
 
     }
 }
