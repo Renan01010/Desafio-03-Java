@@ -1,5 +1,6 @@
 import br.com.desafio.modelos.Cachorro;
 import br.com.desafio.modelos.Carro;
+import br.com.desafio.modelos.ConversorMoeda;
 import br.com.desafio.modelos.Gato;
 
 public class Principal {
@@ -27,6 +28,12 @@ public class Principal {
 
         cachorro.abanarRabo();
         cachorro.emitirSom();
+
+        ConversorMoeda dolar = new ConversorMoeda();
+        dolar.setMoeda("Dolar");
+        dolar.setValor(50.00);
+        dolar.converterDolarParaReal();
+
 
     }
 }
